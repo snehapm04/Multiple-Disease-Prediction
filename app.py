@@ -5,8 +5,8 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 st.set_page_config(page_title="Prediction of Disease Outbreaks",layout="wide")
 w_d=os.path.dirname(os.path.abspath(__file__))
-diabetes=pickle.load(open(f'{w_d}/diabetes_model.sav','rb'))
-heart=pickle.load(open(f'{w_d}/heart_disease_model.sav','rb'))
+diabetes=pickle.load(open('diabetes_model.sav','rb'))
+heart=pickle.load(open('heart_disease_model.sav','rb'))
 
 with st.sidebar:
     selected=option_menu("Prediction of Outbreaks System",
