@@ -59,8 +59,6 @@ Disease_Outbreak_Prediction/
    streamlit run app/main.py
    ```
 
-## License
-MIT License - see [LICENSE](LICENSE) file.
 
 ## Acknowledgments
 - Data sourced from medical research institutions.
